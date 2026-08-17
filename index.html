@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Special Delivery from a Bunny! 🌷</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Corner Peeking Kittens -->
+    <div class="kitten top-left">🐱</div>
+    <div class="kitten top-right">🐱</div>
+    <div class="kitten bottom-left">🐱</div>
+    <div class="kitten bottom-right">🐱</div>
+
+    <div class="container">
+        <h1>Special Delivery! ✉️</h1>
+        <p>Tap the bunny to open your mail.</p>
+        
+        <!-- Animated Bunny & Mail Container -->
+        <div class="bunny-container" id="openMailBtn">
+            <div class="bunny">
+                <div class="ears">
+                    <div class="ear left"></div>
+                    <div class="ear right"></div>
+                </div>
+                <div class="face">
+                    <div class="eyes"></div>
+                    <div class="nose"></div>
+                </div>
+            </div>
+            <div class="envelope-mini">✉️</div>
+        </div>
+    </div>
+
+    <!-- Question Modal -->
+    <div class="modal" id="questionModal">
+        <div class="modal-content">
+            <div class="tulip-icon">🌷</div>
+            <h2>A Message For You</h2>
+            <p id="questionText">Would you like to take this tulip?</p>
+            <div class="btn-group" id="btnGroup">
+                <button id="yesBtn">Yes! 🌷</button>
+                <button id="noBtn">No 🙈</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Result Modal (Flirting Lines & Shower) -->
+    <div class="modal" id="resultModal">
+        <div class="modal-content">
+            <span class="close-btn" id="closeBtn">&times;</span>
+            <div class="tulip-icon">🌷</div>
+            <h2 id="yayTitle">Yay! 🎉</h2>
+            <p id="quoteText">Your flirting line goes here!</p>
+            <button id="anotherBtn">Another One ✨</button>
+        </div>
+    </div>
+
+    <!-- Tulip Flower Shower Container -->
+    <div class="flower-shower" id="flowerShower"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
